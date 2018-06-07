@@ -1,0 +1,125 @@
+/* pages/messageLoop/messageLoop.wxss */
+
+.body {
+  width: 95%;
+  margin: 20rpx auto 0;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 20rpx auto;
+}
+
+.title>view view {
+  color: #657ca5;
+}
+
+.title text {
+  font-size: 30rpx;
+}
+
+.title image {
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+
+.message image {
+  width: 230rpx;
+  height: 230rpx;
+  margin-right: 10rpx;
+}
+
+.message>view {
+  margin-bottom: 20rpx;
+  font-size: 37rpx
+}
+
+.message text {
+  color: #657ca5;
+}
+
+.like {
+  width: 95%;
+  height: 90rpx;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.like>view {
+  display: flex;
+  align-items: center;
+  color: #8a8a8a;
+  font-size: 35rpx;
+}
+
+.leave {
+  margin: 20rpx auto;
+  border-top: 1px solid #ddd;
+  border-bottom: 5px solid #ddd;
+}
+
+.commit {
+  width: 95%;
+  margin: 30rpx auto;
+  display: flex;
+}
+
+.commit>image {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  margin-right: 2%;
+}
+
+.commit>view {
+  width: 88%;
+}
+
+.nameAndTime {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+form{
+  width: 100%;
+  display: block;
+  background: #f8f8f8;
+  position: fixed;
+  bottom: 0
+}
+form view{
+  width:95%;height: 100rpx;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+form input{
+  width: 80%;height: 75rpx;
+  background: #fff;
+  padding-left: 20rpx;
+  border-radius: 10rpx
+}
+form button{
+  width: 15%;
+  margin: 0;
+  padding: 0;
+  line-height: 50rpx;
+  font-size: 35rpx;
+  color: #8a8a8a
+}
+form button::after{
+  border: none;
+}

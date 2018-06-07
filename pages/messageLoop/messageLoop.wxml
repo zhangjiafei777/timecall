@@ -1,0 +1,35 @@
+<!--pages/messageLoop/messageLoop.wxml-->
+<view>
+  <view class='body'>
+    <view class='monoblock'>
+      <view class='title'>
+        <image src='../images/tou.jpg'></image>
+        <view>
+          <view>name</view>
+          <text>2018-6-01</text>
+        </view>
+      </view>
+      <view class='message'>
+        <navigator url='../messageLoopDetalis/messageLoopDetalis' hover-class='none'>
+          <text>#单身狗#</text> 你家大黄狗，站在大门口，把我咬两口，尾巴摇一摇，想吃肉骨头！
+        </navigator>
+        <image src='../images/addImages.png'></image>
+        <image src='../images/addImages.png'></image>
+      </view>
+    </view>
+  </view>
+  <!-- 点赞留言 -->
+  <view class='leave'>
+    <view class='like'>
+      <view>
+        <image src='../images/woman.png'></image>
+        <view>20.87+</view>
+        <image style='margin-left:15rpx;width:40rpx;height:40rpx' src='../images/evaluate.png'></image>
+      </view>
+      <view>
+        <image style='margin-right:8rpx' src='../images/like.png'></image>
+        <text>456</text>
+      </view>
+    </view>
+  </view>
+</view>

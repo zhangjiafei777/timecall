@@ -1,0 +1,28 @@
+<!--pages/home/home.wxml-->
+<!-- <view class='z-index'>
+  <image style='width:100%;height:{{windowHeight}}px;vertical-align: middle;' src='../images/background.png'></image>
+  <image src='../images/together.png'></image>
+</view> -->
+<view>
+  <view style='width:100%;height:1px;background:#00f6ff'></view>
+  <view class='Memories'>
+    <image src='../images/sand.png'></image>
+    <navigator url='/pages/Memories/Memories?judge=1' hover-class='none'>
+      <image src='../images/sandButton.png'></image>
+    </navigator>
+  </view>
+  <view class='Memories time'>
+    <image src='../images/time.png'></image>
+    <navigator url='/pages/Memories/Memories?judge=2' hover-class='none'>
+      <image src='../images/timeBtton.png'></image>
+    </navigator>
+  </view>
+</view>
+
+<view class='unfold'>
+  <image bindtap='unfold' animation="{{animationData1}}" src='../images/unfold.png'></image>
+  <view animation="{{animationData2}}"></view>
+  <view animation="{{animationData5}}" class='bias'></view>
+  <image animation="{{animationData4}}" class='my' bindtap='myNav' src='../images/my.png'></image>
+  <image animation="{{animationData3}}" class='service' src='../images/service.png'></image>
+</view>

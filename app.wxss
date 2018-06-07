@@ -1,0 +1,7 @@
+/**app.wxss**/
+.title image {
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}

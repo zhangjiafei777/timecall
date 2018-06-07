@@ -1,0 +1,80 @@
+/* pages/home/home.wxss */
+
+.z-index {
+  position: relative;
+}
+
+.z-index image:nth-child(2) {
+  width: 500rpx;
+  height: 170rpx;
+  position: absolute;
+  bottom: 180rpx;
+  left: 130rpx;
+}
+
+page {
+  background: #292148;
+}
+
+.Memories>image {
+  width: 165rpx;
+  height: 195rpx;
+  margin: 100rpx auto 40rpx;
+  display: block;
+}
+
+.Memories>navigator image {
+  width: 600rpx;
+  height: 80rpx;
+  display: block;
+  margin: auto;
+}
+
+.time>image {
+  width: 220rpx;
+  height: 210rpx;
+}
+
+.unfold>image:nth-child(1) {
+  width: 90rpx;
+  height: 90rpx;
+  position: fixed;
+  right: 67rpx;
+  bottom: 70rpx;
+  z-index: 99999;
+}
+
+.unfold>view:nth-child(2) {
+  width: 90rpx;
+  height:90rpx;
+  position: fixed;
+  right: 67rpx;
+  bottom: 70rpx;
+  background: #7469a0;
+  border-radius: 50%;
+}
+
+.bias {
+  width: 75rpx;
+  height: 1.5px;
+  background: #314852;
+  position: fixed;
+  right: 77rpx;
+  bottom: 106rpx;
+}
+
+.my {
+  width: 57rpx;
+  height: 63rpx;
+  position: fixed;
+  right: 83rpx;
+  bottom: 85rpx;
+}
+
+.service {
+  width: 68rpx;
+  height: 68rpx;
+  position: fixed;
+  right: 67rpx;
+  bottom: 70rpx;
+}

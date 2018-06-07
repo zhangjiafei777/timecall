@@ -1,0 +1,10 @@
+<!--pages/leave/leave.wxml-->
+<!-- <view style='width:100%;height:1px;background:#00f6ff'></view> -->
+<view class='label'>选择属于自己的标签</view>
+<view class='form'>
+  <form>
+    <textarea placeholder='许下你的心愿' placeholder-style='color:#fff' maxlength="-1"></textarea>
+    <image class='addimg' src='../images/addImages.png'></image>
+    <button>时光call 走你-></button>
+  </form>
+</view>

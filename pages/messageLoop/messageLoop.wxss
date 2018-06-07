@@ -1,0 +1,64 @@
+/* pages/messageLoop/messageLoop.wxss */
+
+.body {
+  width: 95%;
+  margin: auto;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 20rpx auto;
+}
+
+.title>view view {
+  color: #ff8100;
+}
+
+.title text {
+  font-size: 30rpx;
+}
+
+.title image {
+  width: 90rpx;
+  height: 90rpx;
+  margin-right: 20rpx;
+}
+
+.message image {
+  width: 230rpx;
+  height: 230rpx;
+  margin-right: 10rpx
+}
+
+.message>view {
+  margin-bottom: 20rpx;
+}
+
+.message text {
+  color: #657ca5;
+}
+.like{
+  width: 95%;
+  height: 90rpx;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+.like image{
+  width: 50rpx;
+  height: 50rpx
+}
+.like>view{
+  display: flex;
+  align-items: center;
+  color: #8a8a8a;
+  font-size: 35rpx
+}
+.leave{
+  margin: 20rpx auto;
+  border-top: 1px solid #ddd;
+  border-bottom: 5px solid #ddd;
+}

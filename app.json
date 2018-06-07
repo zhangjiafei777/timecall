@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/messageLoop/messageLoop",
+    "pages/messageLoopDetalis/messageLoopDetalis",
+    "pages/Zeitpunktder/Zeitpunktder",
+    "pages/leave/leave",
+    "pages/Memories/Memories",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/personal/personal"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#292148",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "#fff"
+  }
+}

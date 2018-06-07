@@ -1,0 +1,6 @@
+/* pages/Zeitpunktder/Zeitpunktder.wxss */
+.canvas{  
+    width: 100%;  
+    height: 60%;  
+    position: fixed;  
+}  

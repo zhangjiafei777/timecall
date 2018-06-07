@@ -1,0 +1,42 @@
+<!--pages/Memories/Memories.wxml-->
+<view class='bubbling'>
+  <view class='bubbling1'>
+    <image src='../images/bubbling1.png'></image>
+    <view>
+      <view>女大十八岁</view>
+    </view>
+  </view>
+  <view class='bubbling2'>
+    <image src='../images/bubbling2.png'></image>
+    <view>
+      <view>女大十八岁</view>
+    </view>
+  </view>
+  <view class='bubbling3'>
+    <image src='../images/bubbling1.png'></image>
+    <view>
+      <view>女大十八岁</view>
+    </view>
+  </view>
+  <view class='bubbling4'>
+    <image src='../images/bubbling2.png'></image>
+    <view>
+      <view>女大十八岁</view>
+    </view>
+  </view>
+  <view class='bubbling5'>
+    <image src='../images/bubbling1.png'></image>
+    <view>
+      <view>女大十八岁</view>
+    </view>
+  </view>
+</view>
+<view class='outermost'>
+  <image wx:if="{{judge==1}}" style='height:{{windowHeight}}px;vertical-align: middle;' src='../images/Memories.png'></image>
+  <image wx:if="{{judge==2}}" style='height:{{windowHeight}}px;vertical-align: middle;' src='../images/Machine.png'></image>
+</view>
+<view class='provided'>
+  <view style='text-indent:20rpx'> 假如时光倒流你想做什么？</view>
+  <view>最后悔做什么？</view>
+  <navigator url='../leave/leave'><image class='navgetTo' src='../images/together.png'></image></navigator>
+</view>
